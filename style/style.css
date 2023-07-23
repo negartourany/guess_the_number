@@ -1,0 +1,11 @@
+* {
+  text-align: center;
+}
+
+#square {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
