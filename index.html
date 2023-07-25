@@ -13,31 +13,49 @@
     />
   </head>
   <body>
-    <button>Again!</button> <span>'Between 1 and 20'</span>
-    <h1>Guess My Number!</h1>
-    <br />
-    <div id="square">
-      <br />
-      ?
-    </div>
-
-    <br />
-    <div class="container">
-      <div class="row">
-        <div class="col number">
-          <form>
-            <input type="number" />
-          </form>
-          <br />
-          <button>check!</button>
+    <div id="body">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-dark btn-lg" id="again-btn">
+              Again!
+            </button>
+          </div>
+          <div class="col">
+            <span id="discreption">(Between 1 and 20)</span>
+          </div>
         </div>
-        <div class="col score">
-          Start guessing....
-          <br />
-          <br />
-          💯 Score: 20
-          <br />
-          🏆 Highscore: 0
+      </div>
+      <br />
+      <h1>Guess My Number!</h1>
+      <br />
+      <div id="square">
+        <br />
+
+        <p class="question-mark">?</p>
+      </div>
+
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col number">
+            <form class="number-form">
+              <input class="number-form" type="number" />
+            </form>
+            <br />
+            <button class="btn btn-dark" id="check-btn">check!</button>
+          </div>
+          <div class="col score">
+            <p class="description">
+              Start guessing....
+              <br />
+              <br />
+              💯 Score: 20
+              <br />
+
+              🏆 Highscore: 0
+            </p>
+          </div>
         </div>
       </div>
     </div>

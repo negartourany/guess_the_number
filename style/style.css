@@ -1,11 +1,58 @@
 * {
+  color: #071e22;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+h1 {
   text-align: center;
 }
-
+.question-mark {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  display: block;
+}
+.number-form {
+  height: 50px;
+  width: 75%;
+  border-radius: 3px;
+}
+.description {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#again-btn {
+  background-color: #7e7f83;
+  border: none;
+}
+#check-btn {
+  margin-left: 35px;
+  margin-top: -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  background-color: #7e7f83;
+  border: none;
+  color: white;
+}
+#discreption {
+  font-size: 1.25rem;
+  margin-left: 110px;
+  font-weight: 600;
+}
+#body {
+  background-color: #d9c5b2;
+  margin: 100px 400px;
+  padding: 30px 50px;
+}
 #square {
-  background-color: aquamarine;
+  background-color: #34312d;
   height: 100px;
   width: 100px;
   display: block;
   margin: auto;
+  margin-bottom: 30px;
 }
