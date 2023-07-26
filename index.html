@@ -40,24 +40,25 @@
         <div class="row">
           <div class="col number">
             <form class="number-form">
-              <input class="number-form" type="number" />
+              <input class="number-form form-number" type="number" />
             </form>
             <br />
             <button class="btn btn-dark" id="check-btn">check!</button>
           </div>
           <div class="col score">
             <p class="description">
-              Start guessing....
+              <span id="guess">Start guessing....</span>
               <br />
               <br />
-              💯 Score: 20
+              💯 Score: <span id="score">20</span>
               <br />
 
-              🏆 Highscore: 0
+              🏆 Highscore: <span id="highscore">0</span>
             </p>
           </div>
         </div>
       </div>
     </div>
+    <script src="style/java.js"></script>
   </body>
 </html>
